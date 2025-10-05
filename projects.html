@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - Solshine Systems</title>
+    <meta name="description" content="Explore Solshine Systems's portfolio of successful residential and commercial solar installations. See our work and customer testimonials.">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <i class="fas fa-solar-panel"></i>
+                        <span>Solshine Systems</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link active">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Our Solar Projects</h1>
+                <p>Showcasing successful solar installations across residential and commercial properties</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Filter -->
+    <section class="project-filter">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="storage">Energy Storage</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Gallery -->
+    <section class="projects-gallery">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Residential Project 1 -->
+                <div class="project-card" data-category="residential">
+                    <div class="project-image">
+                        <i class="fas fa-home project-icon"></i>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Modern Family Home</h3>
+                                <p>15kW System • Sacramento, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <div class="project-type">
+                                <i class="fas fa-home"></i>
+                                <span>Residential</span>
+                            </div>
+                            <div class="project-size">15kW System</div>
+                        </div>
+                        <h4>Modern Family Home</h4>
+                        <p>Complete rooftop solar installation with premium panels and smart inverter system.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">22,500</span>
+                                <span class="stat-label">kWh/year</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">85%</span>
+                                <span class="stat-label">Bill reduction</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">18</span>
+                                <span class="stat-label">Tons CO₂ saved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial Project 1 -->
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <i class="fas fa-industry project-icon"></i>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Manufacturing Facility</h3>
+                                <p>250kW System • Oakland, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <div class="project-type">
+                                <i class="fas fa-building"></i>
+                                <span>Commercial</span>
+                            </div>
+                            <div class="project-size">250kW System</div>
+                        </div>
+                        <h4>Manufacturing Facility</h4>
+                        <p>Large-scale commercial installation with ground-mounted solar array and monitoring system.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">375,000</span>
+                                <span class="stat-label">kWh/year</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">70%</span>
+                                <span class="stat-label">Cost reduction</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">300</span>
+                                <span class="stat-label">Tons CO₂ saved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Residential Project 2 -->
+                <div class="project-card" data-category="residential storage">
+                    <div class="project-image">
+                        <i class="fas fa-battery-full project-icon"></i>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Villa with Battery Storage</h3>
+                                <p>20kW + 30kWh Battery • San Jose, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <div class="project-type">
+                                <i class="fas fa-battery-half"></i>
+                                <span>Solar + Storage</span>
+                            </div>
+                            <div class="project-size">20kW + Storage</div>
+                        </div>
+                        <h4>Villa with Battery Storage</h4>
+                        <p>Premium solar installation combined with lithium-ion battery storage for 24/7 clean energy.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">30,000</span>
+                                <span class="stat-label">kWh/year</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">95%</span>
+                                <span class="stat-label">Energy independence</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">24</span>
+                                <span class="stat-label">Tons CO₂ saved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial Project 2 -->
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <i class="fas fa-store project-icon"></i>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Retail Shopping Center</h3>
+                                <p>180kW System • Fresno, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <div class="project-type">
+                                <i class="fas fa-building"></i>
+                                <span>Commercial</span>
+                            </div>
+                            <div class="project-size">180kW System</div>
+                        </div>
+                        <h4>Retail Shopping Center</h4>
+                        <p>Rooftop solar installation across multiple buildings with centralized monitoring and control.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">270,000</span>
+                                <span class="stat-label">kWh/year</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">65%</span>
+                                <span class="stat-label">Bill reduction</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">215</span>
+                                <span class="stat-label">Tons CO₂ saved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Residential Project 3 -->
+                <div class="project-card" data-category="residential">
+                    <div class="project-image">
+                        <i class="fas fa-home project-icon"></i>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Contemporary Townhouse</h3>
+                                <p>12kW System • San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <div class="project-type">
+                                <i class="fas fa-home"></i>
+                                <span>Residential</span>
+                            </div>
+                            <div class="project-size">12kW System</div>
+                        </div>
+                        <h4>Contemporary Townhouse</h4>
+                        <p>Sleek solar panel integration designed to complement modern architecture.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">18,000</span>
+                                <span class="stat-label">kWh/year</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">90%</span>
+                                <span class="stat-label">Bill reduction</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">14</span>
+                                <span class="stat-label">Tons CO₂ saved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Storage Project -->
+                <div class="project-card" data-category="storage commercial">
+                    <div class="project-image">
+                        <i class="fas fa-warehouse project-icon"></i>
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Warehouse with Microgrid</h3>
+                                <p>300kW + 500kWh Storage • Stockton, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <div class="project-type">
+                                <i class="fas fa-battery-half"></i>
+                                <span>Microgrid</span>
+                            </div>
+                            <div class="project-size">300kW + Storage</div>
+                        </div>
+                        <h4>Warehouse with Microgrid</h4>
+                        <p>Complete microgrid solution with solar, storage, and backup power capabilities.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">450,000</span>
+                                <span class="stat-label">kWh/year</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">99%</span>
+                                <span class="stat-label">Uptime guarantee</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">360</span>
+                                <span class="stat-label">Tons CO₂ saved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Stats -->
+    <section class="project-stats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Impact</h2>
+                <p>Making a difference one installation at a time</p>
+            </div>
+            <div class="impact-stats">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <div class="impact-number">500+</div>
+                    <div class="impact-label">Systems Installed</div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="impact-number">10MW+</div>
+                    <div class="impact-label">Total Capacity</div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="impact-number">8,000+</div>
+                    <div class="impact-label">Tons CO₂ Prevented</div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="impact-number">$15M+</div>
+                    <div class="impact-label">Customer Savings</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Real feedback from satisfied solar customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Solshine Systems exceeded our expectations. The installation was quick, professional, and our energy bills have dropped by 85%. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Mitchell</h4>
+                            <span>Homeowner, Sacramento</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The team at Solshine Systems handled everything from permits to installation. Our commercial facility is now saving thousands monthly on electricity costs."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <span>Business Owner, Oakland</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The battery storage system has been a game-changer. We have power during outages and save even more money with time-of-use rates."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Jennifer Rodriguez</h4>
+                            <span>Homeowner, San Jose</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Join Our Success Stories?</h2>
+                <p>Let us create a custom solar solution for your property and start saving today.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                    <a href="services.html" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-solar-panel"></i>
+                        <span>Solshine Systems</span>
+                    </div>
+                    <p>Leading provider of premium solar panel installations and renewable energy solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Residential Solar</a></li>
+                        <li><a href="services.html">Commercial Solar</a></li>
+                        <li><a href="services.html">Energy Storage</a></li>
+                        <li><a href="services.html">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="projects.html">Our Projects</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 7728 000 519/511</p>
+                        <p><i class="fas fa-envelope"></i> info@SolshineSystems.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 14-15 Opp VIP Colony Sector 9 Udaipur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Solshine Systems Pvt Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
